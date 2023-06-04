@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="./Formulario.css">
+<head>
+  <title>Formulario de Inscripción a MDP Programa</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Formulario de Inscripción a MDP Programa</h1>
+    <form>
+      <label for="carrera">Carrera:</label>
+      <input type="text" id="carrera" name="carrera" required>
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required>
+
+      <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="situacionLaboral">Situación Laboral:</label>
+      <select id="situacionLaboral" name="situacionLaboral" required>
+        <option value="empleado">Empleado</option>
+        <option value="desempleado">Desempleado</option>
+        <option value="estudiante">Estudiante</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <label for="nacionalidad">Nacionalidad:</label>
+      <input type="text" id="nacionalidad" name="nacionalidad" required>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
