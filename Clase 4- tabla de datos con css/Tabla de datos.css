@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #e6aeae;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #694a47;
+    border: 2px solid #000000;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+table td {
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: #0091ff;
+    font-family: cursive;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #0091ff;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: 250px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #868d70;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffabab;
+
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #7a90fe;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0044ff;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #677394;
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #0044ff;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 1px solid #000000;
+
+}
+
+.a {
+    color: #7a9800;
+    background-color: #0044ff;
+}
+
+.b {
+    color: #5e7404;
+}
+
+.c {
+    color: rgb(86, 209, 129);
+}
+
+.d {
+    color: #677394;
+    text-align: center;
+}
+
+.e {
+    color: #677394;
+    text-align: center;
+}
+
+.f {
+    color: #677394;
+    text-align: center;
+}
