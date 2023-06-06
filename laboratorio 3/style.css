@@ -1,0 +1,229 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat';  
+    background-color: #000000;
+}
+header{
+    height: 90.5px;
+    width: 100%;
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+    
+    box-shadow: 0px 10px 10px 0px rgb(255, 0, 0);
+}
+header img{
+    width: 90px;
+    float: right;
+
+}
+header nav{
+
+    float: left;    
+    margin-top: 30px;
+}
+header nav ul li{
+    list-style-type: none;
+    float: left;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins'
+}
+header nav ul li a:hover{
+    color: #ff0000;
+    font-weight: bold;
+}
+aside{
+    clear: both;
+    width: 35%;
+    padding:112.5px 20px 20px 20px;
+    border-right:1px solid #ffffff;
+    float: left;
+}
+aside p{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+aside nav ul li{
+    list-style-type: none;
+    margin-bottom: 20px; 
+    font-size: 30px;
+    border-bottom: 2px solid #ff0000;
+}
+aside nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+aside nav ul li:hover, aside nav ul li a:hover{
+    border-bottom: 2px solid #ff0000;
+    color: #ff0000;
+}
+aside form{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    
+}
+aside form h1{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+aside form input, aside form textarea{
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 10px;
+ border-radius: 10px;
+ background-color: #ff0000;
+ color: #ff0000;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+
+}
+aside form textarea{
+    height: 80px;
+}
+aside form button{
+    width: 100%;
+    padding: 10px;
+    background-color:#ff0000;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+aside form button:hover{
+    background-color: #ffffff; 
+}
+aside form input:focus,aside form textarea:focus{
+    background-color: rgb(255, 255, 255);
+}
+main{
+    width: 65%;
+    float: left;
+    padding:112.5px 20px 20px 20px;
+}
+main section .card{
+    width: 30.3%;
+    margin: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgb(255, 0, 0);
+    clear: both;
+    display: inline-block;
+}
+main section .card-imagen,
+main section .card-imagen2,
+main section .card-imagen3,
+main section .card-imagen4,
+main section .card-imagen5,
+main section .card-imagen6,
+main section .card-imagen7,
+main section .card-imagen8,
+main section .card-imagen9 {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main section .card .card-imagen{
+    background-image: url(../laboratorio\ 3/1.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+}
+main section div.card .card-imagen2 {
+    background-image: url(../laboratorio\ 3/2.webp);
+}
+
+main section div.card .card-imagen3 {
+    background-image: url(../laboratorio\ 3/3.jpg);
+}
+main section div.card .card-imagen4{
+    background-image: url(../laboratorio\ 3/4.jpg);
+}
+main section div.card .card-imagen5{
+    background-image: url(../laboratorio\ 3/5.jpg);
+}
+main section div.card .card-imagen6{
+    background-image: url(../laboratorio\ 3/6.jpg);
+}
+main section div.card .card-imagen7{
+    background-image: url(../laboratorio\ 3/7.jpeg);
+}
+main section div.card .card-imagen8{
+    background-image: url(../laboratorio\ 3/8.jpg);
+    width: 170%;
+}
+main section div.card .card-imagen9{
+    background-image: url(../laboratorio\ 3/9.jpg);
+}
+main section .card  .descrition{
+    padding: 20px;
+    font-family: 'Poppins';
+    color: white;
+}
+main section .card button{
+    width: 100%;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+main section .card .precio{
+    background: #ff0000;
+    width: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 00px 0px 10px 0px;
+}
+main section .card button:hover{
+    background: #ffffffa1;
+}
+footer{
+    clear: both;
+    width: 100%;
+    background: #ff0000;
+    margin: 0px;
+    padding: 30px;
+    
+}
+footer div{
+    width: 100%;
+}
+footer div span{
+    float: right;
+}
+h5{color: #ff0000;
+font-size: 20px;}
+p{color: white;}
+span{color: white;}
+a{color: white;
+}
