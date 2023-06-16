@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #555555;
+   
+}
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #a6a6a6;
+    padding: 20px;
+        
+   
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+  }
+
+ .imagen{
+  position: absolute;
+  top: 0;
+  right: 0;}
+
+  
+  .flexbox1 img{
+    max-width: 200px;
+    max-height: 200px;
+    align-content: center;
+  }
+  .flexbox2 img{
+    max-width: 200px;
+    max-height: 200px;
+    align-content: center;
+  }
+  .flexbox3 img{
+    max-width: 200px;
+    max-height: 200px;
+    align-content: center;
+  }
+  .flexbox4 img{
+    max-width: 200px;
+    max-height: 200px;
+    align-content: center;
+  }
+  .flexbox5 img{
+      max-width: 200px;
+      max-height: 200px;
+      align-content: center;
+    }
+    .flexbox6 img{
+      max-width: 200px;
+      max-height: 200px;
+      align-content: center;
+    }
+    .flexbox7 img{
+      max-width: 200px;
+      max-height: 200px;
+      align-content: center;
+    }
+    .flexbox8 img{
+      max-width: 200px;
+      max-height: 200px;
+      align-content: center;
+  }
+   
+  /* Estilos para el cuerpo principal */
+  main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 700px;
+    
+  }
+  
+  .flexbox {
+    width: 200px;
+    height: 200px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #cbcbcb;
+    padding: 20px;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    
+
+  }
+
+  h1{
+    color: black;
+    font-size: 30px;
+    
+  }
+ p{
+    color: crimson;
+    font-size: 20px;
+ }
+.nosotros{ 
+    color: chartreuse;
+}
+.contacto{
+    color: rgb(125, 125, 125);
+}
+.redes{
+    color: darkblue;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.navbar li {
+    margin-right: 20px;
+  }
+  
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    
+  }
+  
+.navbar li a:hover {
+    color: #ff0000;
+  }
+  
+  .container {
+    display: flex;
+    justify-content:end;
+    margin-bottom: 20px;
+  }
+  
+  .container button {
+    margin-right: 90px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #ccbc0a;
+    color: #000000;
+    cursor: pointer;
+    outline: none;
+    
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flexbox {
+    flex-basis: 50%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+
+
+
+
+
+
+
