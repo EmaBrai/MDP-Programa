@@ -1,0 +1,113 @@
+ /* Estilos generales */
+ body {
+    margin: 0;
+    padding: 100px;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna */
+    grid-gap: 1px; /* Espacio entre cuadros */
+    max-width: 5000px; /* Ancho máximo */
+    height: 505px;
+    margin: 0 auto; /* Centrar en la página */
+}
+
+/* Estilos para el cuadro grande */
+.cuadro-grande {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Divide en tres columnas */
+    grid-gap: 10px; /* Espacio entre cuadros */
+    border: 2px solid black; /* Borde */
+    padding: 20px; /* Espacio interno */
+    background-color: #00b7ff; /* Color de fondo */
+    text-align: center; /* Alineación del contenido */
+}
+
+/* Estilos para los cuadros pequeños */
+.cuadro-pequeno {
+    border: 2px solid black; /* Borde */
+    box-sizing: border-box;
+    padding: 20px; /* Espacio interno */
+    background-color: #00ff80; /* Color de fondo */
+    text-align: center; /* Alineación del contenido */
+   
+    
+    
+}
+.cuadro-pequenoa {
+    border: 2px solid black; /* Borde */
+    box-sizing: border-box;
+    padding: 20px; /* Espacio interno */
+    background-color: #00ff80; /* Color de fondo */
+    text-align: center; /* Alineación del contenido */
+    max-height: 20px;
+    
+}
+
+.cuadro-pequenob {
+    border: 2px solid black; /* Borde */
+    box-sizing: border-box;
+    padding: 20px; /* Espacio interno */
+    background-color: #00ff80; /* Color de fondo */
+    text-align: center; /* Alineación del contenido */
+    max-height: 20px;
+    display: block;
+    margin-top: 50px;
+    position: relative;
+    right: 435px;
+    
+}
+
+.cuadro-pequenoc {
+    border: 2px solid black; /* Borde */
+    box-sizing: border-box;
+    padding: 20px; /* Espacio interno */
+    background-color: #00ff80; /* Color de fondo */
+    text-align: center; /* Alineación del contenido */
+    max-height: 20px;
+    display: block;
+    margin-top: 100px;
+    position: relative;
+    right: 870px;
+    
+}
+
+.cuadro-pequeno2 {
+    border: 2px solid black; /* Borde */
+    box-sizing: border-box;
+    padding: 20px; /* Espacio interno */
+    background-color: #00ff80; /* Color de fondo */
+    text-align: center; /* Alineación del contenido */
+    
+    
+}
+.cuadro-pequeno3 {
+    border: 2px solid black; /* Borde */
+    box-sizing: border-box;
+    padding: 20px; /* Espacio interno */
+    background-color: #00ff80; /* Color de fondo */
+    text-align: center; /* Alineación del contenido */
+    
+    
+}
+.cuadro-pequeno4 {
+    border: 2px solid black; /* Borde */
+    box-sizing: border-box;
+    padding: 20px; /* Espacio interno */
+    background-color: #00ff80; /* Color de fondo */
+    text-align: center; /* Alineación del contenido */
+    
+    
+}
+.cuadro-pequeno5 {
+    border: 2px solid black; /* Borde */
+    box-sizing: border-box;
+    padding: 20px; /* Espacio interno */
+    background-color: #00ff80; /* Color de fondo */
+    text-align: center; /* Alineación del contenido */
+    
+    
+}
+
