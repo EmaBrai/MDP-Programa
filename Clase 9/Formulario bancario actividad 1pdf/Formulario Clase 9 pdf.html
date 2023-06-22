@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario Clase 9</title>
+  <link rel="stylesheet" href="./Formulario Clase 9 pdf.css">
+</head>
+<body>
+  <h2 style="text-align: center;">Formulario de Consultas Bancarias</h2>
+
+  <form class="container">
+    <label for="tipoCuenta">Tipo de Cuenta:</label>
+    <div class="radio-labels">
+      <input type="radio" id="cuentaCorriente" name="tipoCuenta" value="Cuenta Corriente">
+      <label for="cuentaCorriente">Cuenta Corriente</label>
+      <input type="radio" id="cuentaAhorros" name="tipoCuenta" value="Cuenta de Ahorros">
+      <label for="cuentaAhorros">Cuenta de Ahorros</label>
+    </div>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena">
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono">
+
+    <input type="submit" value="Enviar Consulta">
+  </form>
+</body>
+</html>
