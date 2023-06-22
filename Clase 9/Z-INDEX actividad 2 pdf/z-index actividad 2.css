@@ -1,0 +1,27 @@
+.square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
+  }
+
+  .square1 {
+    background-color: red;
+    z-index: 3;
+    left: 0;
+    top: 0;
+  }
+
+  .square2 {
+    background-color: blue;
+    z-index: 2;
+    left: 80px;
+    top: 20px;
+  }
+
+  .square3 {
+    background-color: green;
+    z-index: 1;
+    left: 160px;
+    top: 40px;
+  }
