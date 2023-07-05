@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="./index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-success" >
+      <div class="container-fluid">
+        <nav class="navbar bg-success">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="https://img.freepik.com/vector-gratis/plantilla-logotipo-computadora-tecnologia_23-2149204144.jpg?w=2000"
+                alt="Bootstrap" width="50" height="50">
+            </a>
+          </div>
+        </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">PCs</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">PC Escritorio</a></li>
+                <li><a class="dropdown-item" href="#">Notebooks</a></li>
+                <li><a class="dropdown-item" href="#">Consolas</a></li>
+                <li>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Accesorios</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Placas de video</a></li>
+                <li><a class="dropdown-item" href="#">Memorias</a></li>
+                <li><a class="dropdown-item" href="#">SSD</a></li>
+                <li>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Perifericos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Teclados gamers</a></li>
+                <li><a class="dropdown-item" href="#">Mouse</a></li>
+                <li><a class="dropdown-item" href="#">Sillas Gamers</a></li>
+                <li>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Conocenos</a>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-secondary btn-md mx-3">Tu Compra/0<i class="bi bi-cart3"></i></button>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Encontra lo que buscas" aria-label="Search">
+            <button class="btn btn-danger" type="submit">Buscar productos</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="d-flex flex-row mb-2 w-100 bg-dark">
+    <br>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide d-block w-50 p-2" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img
+            src="https://www.cdmarket.com.ar/image/0/1000_1300-402324_001.jpg"
+            class="d-block w-100 h-100" alt="noimage">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://aremsaprod.vteximg.com.br/arquivos/ids/225394-1000-1000/image-768c4691001845bfae70ad16c332e691.jpg?v=637853599334900000"
+            class="d-block w-100 h-100" alt="noimage">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGS5gfhhQkWt5LKXvAZXPhI3cjI_TG2bmNA&usqp=CAU"
+            class="d-block w-100 h-100" alt="noimage">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-2 w-75">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://mauricomputacion.com.ar/images/productos/500x500/24145.webp"
+            class="card-img-top w-100 h-100" alt="noimage">
+          <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">Descripcion</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.megatecnologia.com.ar/images/1681763250427.jpg"
+            class="card-img-top w-100 h-100" alt="noimage">
+          <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">Descripcion</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="https://i.ytimg.com/vi/bMwDqUTxGwc/maxresdefault.jpg"
+            class="card-img-top w-100 h-100" alt="noimage">
+          <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">Descripcion</button>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="https://d2r9epyceweg5n.cloudfront.net/stores/829/696/products/cm3701-54ccce1db893b7deab15783250838222-640-0.jpg"
+            class="card-img-top w-100 h-100" alt="noimage">
+          <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">Descripcion</button>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="https://front.dev.malditohard.com.ar/img/migration/OUTLET--PLACA-DE-VIDEO-RTX-3080-TI-GIGABYTE-GAMING-OC-OEM.webp"
+            class="card-img-top w-100 h-100" alt="noimage">
+          <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">Descripcion</button>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="https://www.qloud.ar/SITES/IMG/gaming-point-06-2021/221_20-12-2022-03-12-21-00000000004119280001539880411928-1-dab578ce8ab8011f3116695433685345-640-0.png"
+            class="card-img-top w-100 h-100" alt="noimage">
+          <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">Descripcion</button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <br>
+  <br>
+  <div class="row justify-content-evenly">
+    <div class="card p2 h-25 col-3 border-0">
+      <img
+        src="https://www.megatecnologia.com.ar/images/1681763250427.jpg"
+        class="card-img-top w-100 h-100" alt="noimage">
+      <div class="card-body">
+        <h5 class="card-title">PC GAMER EQUIPADA</h5>
+        <p class="card-text"><i class="bi bi-currency-dollar"></i>
+          <medium class="text-body-secondary">600.000</medium>
+        </p>
+      </div>
+    </div>
+    <div class="card p2 h-25 col-3 border-0">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_2X_973732-MLA69756259006_062023-F.webp"
+        class="card-img-top w-100 h-100" alt="noimage">
+      <div class="card-body">
+        <h5 class="card-title">Accesorios Gamer</h5>
+        <p class="card-text"><i class="bi bi-currency-dollar"></i>
+          <medium class="text-body-secondary">50000</medium>
+        </p>
+      </div>
+    </div>
+    <div class="card p2 h-25 col-3 border-0">
+      <img
+        src="https://s3-sa-east-1.amazonaws.com/saasargentina/EWDo5HwRTiRm5vUY0Ns5/imagen"
+        class="card-img-top w-100 h-100" alt="noimage">
+      <div class="card-body">
+        <h5 class="card-title">Silla Gamer</h5>
+        <p class="card-text"><i class="bi bi-currency-dollar"></i>
+          <medium class="text-body-secondary">100.000</medium>
+        </p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row justify-content-center">
+    <div class="col-3">
+      <hr class="border-2 opacity-50 border-primary">
+    </div>
+    <div class="col-3">
+      <text>Productos exclusivos (traidos del exterior)</text>
+
+    </div>
+    <div class="col-3">
+      <hr class="border-2 opacity-50 border-primary">
+
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="card-group">
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+        <img src="https://www.criptonoticias.com/wp-content/uploads/2020/07/Nvidia-GeForce-RTX-3090-Amazon.jpg" class="card-img-top"
+          alt="noimage">
+        <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+          data-bs-toggle="modal" data-bs-target="#exampleModal">Descripcion</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Placa de video</h5>
+        <p class="card-text"><small class="text-body-secondary">$ 1.000.000</small></p>
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+        <img
+          src="https://www.qloud.ar/SITES/IMG/gaming-point-06-2021/221_20-12-2022-03-12-21-00000000004119280001539880411928-1-dab578ce8ab8011f3116695433685345-640-0.png"
+          class="card-img-top" alt="noimage">
+        <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+          data-bs-toggle="modal" data-bs-target="#exampleModal">descripcion</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Memorias Ram</h5>
+
+        <p class="card-text"><small class="text-body-secondary">$ 100.000</small></p>
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+        <img src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_3.jpg" class="card-img-top"
+          alt="noimage">
+        <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+          data-bs-toggle="modal" data-bs-target="#exampleModal">Descripcion</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">SSD</h5>
+
+        <p class="card-text"><small class="text-body-secondary">$ 500.000</small></p>
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+        <img
+          src="https://http2.mlstatic.com/D_NQ_NP_634567-MLA44230302525_122020-O.webp"
+          class="card-img-top" alt="noimage">
+        <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+          data-bs-toggle="modal" data-bs-target="#exampleModal">Descripcion</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Mother</h5>
+
+        <p class="card-text"><small class="text-body-secondary">600.000</small></p>
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+        <img
+          src="https://www.qloud.ar/SITES/IMG/panorama-computacion-05-2021/220_13-10-2022-03-10-12-sin-titulo5.png"
+          class="card-img-top" alt="noimage">
+        <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle"
+          data-bs-toggle="modal" data-bs-target="#exampleModal">Descripcion</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Fuentes de Alimentacion</h5>
+
+        <p class="card-text"><small class="text-body-secondary">800.000</small></p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row justify-content-center">
+    <div class="col-3">
+      <hr class="border-2 opacity-50 border-primary">
+    </div>
+    <div class="col-3">
+      <text>Seguinos en nuestras redes</text>
+
+    </div>
+    <div class="col-3">
+      <hr class="border-2 opacity-50 border-primary">
+
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row h-50 justify-content-center">
+    <div class="card mx-2 col-3">
+      <img src="https://media.c5n.com/p/6a964a8e62cd004abe03d4a36eb3b49c/adjuntos/326/imagenes/000/014/0000014125/790x0/smart/epic-games.jpg" class="card-img-top h-100"
+        alt="noimage">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Compra Juegos Online</a>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col my-3">
+          <div class="card h-100">
+            <img
+              src="https://images.fravega.com/f500/449112e195ec1f36468b598794924d71.jpg"
+              class="card-img-top w-100 h-100" alt="noimage">
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8Q74IiUvDGC88rRKVUHZBRZKZSvKlnio7fkucqLtUsZkUat6MkevKKd5P4--hYW57z_qZILQNVW-15gE3UJG4GTNSYFBac-uO8GKa2Ri4hBC-ioYg7P0kif_8Bs6J4_sqKM14swEzqDXkKi-iMgfJ7S79-F_MEMV88y2kxMmkeQZ9l769Q-4arXvJZg/s1024/1024x1024.jpg"
+              class="card-img-top w-100 h-100" alt="noimage">
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img
+              src="https://http2.mlstatic.com/D_NQ_NP_695360-MLA52352034784_112022-O.webp"
+              class="card-img-top w-100 h-100" alt="noimage">
+
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://pcgamercdmx.mx/wp-content/uploads/2023/05/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg"
+              class="card-img-top w-100 h-100" alt="noimage">
+
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://media.vandal.net/m/21058/los-sims-4-201494113415_1.jpg"
+              class="card-img-top w-100 h-100" alt="noimage">
+
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img
+              src="https://media.vandal.net/m/27407/god-of-war-201837182554_1.jpg"
+              class="card-img-top w-100 h-100" alt="noimage">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-center text-white mt-5">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-facebook"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-google"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-instagram"></i>
+          </a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgb(0, 149, 255);">
+        © 2023 Copyright:
+        <a class="text-white" href="*" target="_blank">Tienda Online</a>
+      </div>
+    </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img
+                    src="https://i.pinimg.com/originals/49/f0/28/49f0288d4ea667ccc8be792f97db6186.jpg"
+                    class="h-75 img-fluid object-fit-cover" alt="noimage">
+                  <div class="h-25 ms-3">
+                    <img
+                      src="https://i.blogs.es/51ade4/ella-don-0oqmvhc1ntw-unsplash/1366_2000.jpg"
+                      class="h-75 img-fluid object-fit-cover rounded-star w-25" alt="noimage">
+                    <img src="https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/05/torre-gaming-3036108.jpg"
+                      class="h-75 img-fluid object-fit-cover rounded-star w-25" alt="noimage">
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Producto</h5>
+                    <p class="card-text">Un setup gamer es todo el conjunto de elementos de hardware, periféricos y accesorios que se necesitan para tener una buena experiencia de juego. Esto incluye la computadora, evidentemente, pero también todo lo demás desde la alfombrilla del ratón hasta la iluminación.</p>
+                    <p class="card-text"><small class="text-body-secondary">Colores:</small></p>
+                    <button type="button" class="btn btn-success p-3"></button>
+                    <button type="button" class="btn btn-warning p-3"></button>
+                    <button type="button" class="btn btn-danger p-3"></button>
+                    <p class="card-text"><small class="text-body-secondary">Precio:$ 1.000.000</small></p>
+                    <button type="button" class="btn btn-secondary btn-md">Agregar a tu compra <i
+                        class="bi bi-cart3"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+</body>
